@@ -1,0 +1,62 @@
+
+body{
+    background-color: #474747;
+    color : white;
+    font-family : "Courier New";
+}
+
+.menu{
+   
+    margin-right: 30px;;
+}
+
+.header {
+    color: rgb(10, 7, 196);
+    background-color: rgb(218, 134, 211);
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center; 
+    font-family : "fantasy";
+}
+
+.grid img{
+    border:solid black;
+    border-radius: 50px;
+}
+
+.grid{
+    border-radius: 50px;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
+.site-description {
+    display:flex;
+    justify-content:right;
+    flex-wrap: wrap;
+
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+p{
+    text-align:center;
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: rgb(0, 255, 255);
+}
+
+.item:hover img{
+    opacity: 0.33;
+}
+
+.item{
+    position: relative;
+}
